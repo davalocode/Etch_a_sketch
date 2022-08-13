@@ -1,0 +1,66 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: floralwhite;
+}
+
+body h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.all {
+    width: 40%;
+    display: flex;
+    margin: 0px auto;
+}
+
+.left_election {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left_election button {
+    margin-top: 15%;
+    width: 80%;
+    font-size: 70%;
+}
+
+.left_election input {
+    width: 80%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .all {
+        width: 95%;
+    }
+    .left_election {
+        width: 30%;
+    }
+}
+
+button {
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    transition: all 300ms;
+}
+
+
+button:hover {
+    box-shadow: 5px 5px 5px red;
+}
+
+.container_draw {
+    background-color: white;
+    display: grid;
+    width: 60%;
+    height: 600px;
+    border-style: solid;
+}
+.container_draw div {
+    user-select: none;
+    cursor: pointer;
+}

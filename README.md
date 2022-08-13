@@ -1,1 +1,1 @@
-# Etch_a_sketch
+# Etch_a_skecth
